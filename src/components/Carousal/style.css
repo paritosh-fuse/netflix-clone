@@ -1,0 +1,46 @@
+.carousal {
+  color: #fff;
+  margin-left: 20px;
+}
+
+.carousal_posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+  scroll-behavior: smooth;
+}
+
+.carousal_posters::-webkit-scrollbar {
+  display: none;
+}
+
+.carousal_span {
+  object-fit: contain;
+  width: 100%;
+  margin-right: 15px;
+  transition: transform 450ms;
+}
+
+.carousal_span:hover {
+  transform: scale(1.1);
+}
+
+.carousal_spanLarge:hover {
+  transform: scale(1.11);
+}
+
+.carousal_poster {
+  max-height: 100px;
+}
+.carousal_posterLarge {
+  max-height: 250px;
+}
+
+.spinner {
+  height: 150px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
